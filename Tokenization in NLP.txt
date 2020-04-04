@@ -1,0 +1,62 @@
+=============================
+What is tokenization ?
+=============================
+
+-> An important step in preparing a text for NLP.
+-> Here string or document is broken down into tokens.
+-> There exists diffrerent rules & theories regarding tokenization.
+-> You can create your own rules using regular expressions.
+
+
+Some common examples of tokenization:
+
+a) Break down words or sentence
+b) Seperating punctuating
+c) Seperating all hashtags in a tweet.
+
+
+============================
+Library used for tokenization ?
+============================
+
+One of commanly used library is NLTK(Natural Language ToolKit)  
+
+
+==============================
+Why tokenize ? why is it important in NLP ?
+==============================
+
+1) Provides ease for mapping parts of speech.
+2) Remove unwanted tokens.
+3) Matching common words.
+4) Proves useful in extracting meaning from simple text.
+
+
+=========================
+NLTK tokenizers
+=========================
+
+1) word_tokenize
+2) sent_tokenize
+3) regexp_tokenize
+4) TweetTokenizer
+
+
+=======================================
+
+Diffrence between re.search and re.match ?
+=======================================
+
+match() only scans for beninng of text to find a match. 
+
+search() scans entire string for finding a match.
+
+
+
+
+
+
+
+
+
+
